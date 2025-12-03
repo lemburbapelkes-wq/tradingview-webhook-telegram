@@ -1,0 +1,15 @@
+{
+  "name": "tradingview-webhook-telegram",
+  "version": "1.0.0",
+  "description": "Webhook server to forward TradingView alerts to Telegram bot",
+  "type": "module",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
